@@ -12,6 +12,8 @@ isort = "^5.13.2"
 black = "^24.4.2"
 pre-commit = "^3.7.0"
 bandit = "^1.7.8"
+pandas = "^2.2.2"
+fastparquet = "^2024.2.0"
 
 
 [build-system]
