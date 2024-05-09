@@ -32,9 +32,9 @@ def salvar_arquivo_csv_parquet(df: pd.DataFrame, tipo: list):
     """
     for i in tipo:
         if i == "csv":
-            df.to_csv("data/vendas.csv")
+            df.to_csv("data/vendas.csv", index=False)
         if i == "parquet":
-            df.to_parquet("data/vendas.parquet")
+            df.to_parquet("data/vendas.parquet", index=False)
 
 
 def executar_pipeline(path: str, tipo: list):
