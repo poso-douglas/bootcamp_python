@@ -14,6 +14,8 @@ pre-commit = "^3.7.0"
 bandit = "^1.7.8"
 pandas = "^2.2.2"
 fastparquet = "^2024.2.0"
+loguru = "^0.7.2"
+sentry-sdk = "^2.1.1"
 
 
 [build-system]
